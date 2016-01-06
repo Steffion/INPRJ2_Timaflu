@@ -8,14 +8,9 @@ body {
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
-article {
-	padding-top: 80px;
-	margin-right: 23%;
-	margin-left: 23%;
-}
-
 header {
 	padding-left: 3%;
+	z-index: 1;
 	border-bottom: 1px solid #cfcdcd;
 	height: 70px;
 	width: 100%;
@@ -115,6 +110,13 @@ header nav ul ul li a {
 	border-top: 1px solid rgba(207, 205, 205, 0.18);
 }
 
+article {
+	padding-top: 80px;
+	margin-right: 23%;
+	margin-left: 23%;
+	margin-bottom: 100px;
+}
+
 table {
 	width: 100%;
 	border-collapse: collapse;
@@ -185,4 +187,22 @@ td {
 	border-top: 4px solid\9;
 	border-right: 4px solid transparent;
 	border-left: 4px solid transparent
+}
+
+fieldset {
+	position: relative;
+}
+
+.bedrijfsgegevens select, .bedrijfsgegevens input {
+	width: 40%;
+}
+
+.bestelling input, .bestelling select {
+	width: 80%;
+}
+
+.submit {
+	left: 80%;
+	color: red;
+	position: absolute;
 }
