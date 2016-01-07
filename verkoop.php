@@ -37,7 +37,7 @@
 	echo 
 	'						</select>
 						</label>
-						<input type="text" name="search" value="Zoeken..." />
+						<input type="text" name="search" placeholder="Zoeken..." />
 					</th>
 				</tr>
 				<tr>
