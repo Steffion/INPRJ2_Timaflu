@@ -88,7 +88,8 @@
 				$sql = "SELECT 
 						    *
 						FROM
-						    medicijn;";
+						    medicijn
+						ORDER BY naam;";
 				
 				for ($i = 0; $i < 5; $i++) {
 					$result = $conn->query($sql);
@@ -138,3 +139,18 @@
 		<input class="submit" type="submit" name="submit" value="Bestellen" onclick="alert('Bestelling is doorgevoerd!')"/><br />
 	</fieldset>
 </form>
+
+<h3>Queries die gebruikt zijn:</h3>
+<p>SELECT 
+	    *
+	FROM
+	    klant
+	ORDER BY bedrijfsnaam;</p>
+<p>Om de lijst van klanten te krijgen.</p>
+<br />
+<p>SELECT 
+	    *
+	FROM
+	    medicijn
+	ORDER BY naam;</p>
+<p>Om de lijst van medicijnen te krijgen.</p>
