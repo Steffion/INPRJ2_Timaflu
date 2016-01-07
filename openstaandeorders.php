@@ -53,15 +53,15 @@
 	
 <h3>De query die gebruikt is:</h3>
 <p>Om de lijst met openstaande orders te krijgen:</p>
-<p>SELECT 
-	    bedrijfsnaam,
-	    bestelregel.ordernummer,
-	    artikelcode,
-	    aantal,
-	    statusBeschrijving
-	FROM
-	    bestelling
-	        JOIN
-	    bestelregel ON bestelling.ordernummer = bestelregel.ordernummer
-	WHERE
+<p>SELECT <br />
+	    bedrijfsnaam,<br />
+	    bestelregel.ordernummer,<br />
+	    artikelcode,<br />
+	    aantal,<br />
+	    statusBeschrijving<br />
+	FROM<br />
+	    bestelling<br />
+	        JOIN<br />
+	    bestelregel ON bestelling.ordernummer = bestelregel.ordernummer<br />
+	WHERE<br />
 	    statusBeschrijving NOT LIKE 'verzonden';</p>

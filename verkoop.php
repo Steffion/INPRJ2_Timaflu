@@ -141,16 +141,16 @@
 </form>
 
 <h3>Queries die gebruikt zijn:</h3>
-<p>SELECT 
-	    *
-	FROM
-	    klant
+<p>SELECT <br />
+	    *<br />
+	FROM<br />
+	    klant<br />
 	ORDER BY bedrijfsnaam;</p>
 <p>Om de lijst van klanten te krijgen.</p>
 <br />
-<p>SELECT 
-	    *
-	FROM
-	    medicijn
+<p>SELECT <br />
+	    *<br />
+	FROM<br />
+	    medicijn<br />
 	ORDER BY naam;</p>
 <p>Om de lijst van medicijnen te krijgen.</p>

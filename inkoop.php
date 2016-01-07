@@ -56,14 +56,14 @@
 
 <h3>De query die gebruikt is:</h3>
 <p>Om de lijst met artikelen die ingekocht moeten worden te krijgen:</p>
-<p>SELECT 
-	    *
-	FROM
-	    medicijn
-	        JOIN
-	    fabrieksassortiment ON medicijn.artikelcode = fabrieksassortiment.artikelcode
-	        JOIN
-	    fabrikant ON fabrieksassortiment.bedrijfsnaam = fabrikant.bedrijfsnaam
-	WHERE
-	    voorraad <= minimaleVoorraad
+<p>SELECT <br />
+	    *<br />
+	FROM<br />
+	    medicijn<br />
+	        JOINv
+	    fabrieksassortiment ON medicijn.artikelcode = fabrieksassortiment.artikelcode<br />
+	        JOIN<br />
+	    fabrikant ON fabrieksassortiment.bedrijfsnaam = fabrikant.bedrijfsnaam<br />
+	WHERE<br />
+	    voorraad <= minimaleVoorraad<br />
 	GROUP BY medicijn.artikelcode;</p>
