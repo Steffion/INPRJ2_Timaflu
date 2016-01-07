@@ -35,7 +35,7 @@
 							<li><a href="#">Meest winstgevend</a></li>
 							<li><a href="#">Meest verkocht</a></li>
 							<li><a href="#">Inkooptotalen</a></li>
-							<li><a href="#">Openstaande orders</a></li>
+							<li><a href="?page=openstaandeorders">Openstaande orders</a></li>
 						</ul>
 					</li>
 				</ul>
