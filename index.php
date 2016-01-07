@@ -34,7 +34,7 @@
 							<li><a href="#">Jaaromzet</a></li>
 							<li><a href="#">Meest winstgevend</a></li>
 							<li><a href="#">Meest verkocht</a></li>
-							<li><a href="#">Inkooptotalen</a></li>
+							<li><a href="?page=inkooptotalen">Inkooptotalen</a></li>
 							<li><a href="?page=openstaandeorders">Openstaande orders</a></li>
 						</ul>
 					</li>
