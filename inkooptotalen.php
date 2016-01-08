@@ -39,12 +39,14 @@
 	
 	$conn->close();
 ?>
-	
+
 <h3>De query die gebruikt is:</h3>
 <p>Om de lijst van inkooptotalen te krijgen:</p>
-<p>SELECT <br />
-	    bedrijfsnaam, ROUND(SUM(prijs), 2) AS totaalprijs<br />
-	FROM<br />
-	    fabrieksassortiment<br />
-	GROUP BY bedrijfsnaam<br />
-	ORDER BY totaalprijs DESC;</p>
+<textarea rows="7" cols="50">
+SELECT
+	bedrijfsnaam, ROUND(SUM(prijs), 2) AS totaalprijs
+FROM
+	fabrieksassortiment
+GROUP BY bedrijfsnaam
+ORDER BY totaalprijs DESC;
+</textarea>

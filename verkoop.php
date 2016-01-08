@@ -141,16 +141,20 @@
 </form>
 
 <h3>Queries die gebruikt zijn:</h3>
-<p>SELECT <br />
-	    *<br />
-	FROM<br />
-	    klant<br />
-	ORDER BY bedrijfsnaam;</p>
-<p>Om de lijst van klanten te krijgen.</p>
+<p>Om de lijst van klanten te krijgen:</p>
+<textarea rows="6" cols="50">
+SELECT
+    *
+FROM
+    klant
+ORDER BY bedrijfsnaam;
+</textarea>
 <br />
-<p>SELECT <br />
-	    *<br />
-	FROM<br />
-	    medicijn<br />
-	ORDER BY naam;</p>
-<p>Om de lijst van medicijnen te krijgen.</p>
+<p>Om de lijst van medicijnen te krijgen:</p>
+<textarea rows="6" cols="50">
+SELECT
+    *
+FROM
+    medicijn
+ORDER BY naam;
+</textarea>
