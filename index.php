@@ -20,11 +20,7 @@
 			
 			<nav>
 				<ul>
-					<li><a href="?page=home">Home<b class="caret"></b></a>
-						<ul>
-							<li><a href="?page=voorbeeld">VOORBEELD</a></li>
-						</ul>
-					</li>
+					<li><a href="?page=home">Home</a></li>
 					<li><a href="?page=verkoop">Verkoop</a></li>
 					<li><a href="?page=inkoop">Inkoop</a></li>
 					<li><a href="?page=facturering">Facturering</a></li>

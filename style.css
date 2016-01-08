@@ -141,6 +141,10 @@ td {
 	padding-left: 5px;
 }
 
+fieldset {
+	position: relative;
+}
+
 .error h1 {
 	margin-top: 100px;
 	color: #b6b6b6;
@@ -186,11 +190,7 @@ td {
 	border-top: 4px dashed;
 	border-top: 4px solid\9;
 	border-right: 4px solid transparent;
-	border-left: 4px solid transparent
-}
-
-fieldset {
-	position: relative;
+	border-left: 4px solid transparent;
 }
 
 .bedrijfsgegevens select, .bedrijfsgegevens input {
@@ -206,3 +206,43 @@ fieldset {
 	color: red;
 	position: absolute;
 }
+
+.magazijnbutton {
+	margin-top: 15%;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.center {
+	float: left;
+	margin-left: 5%;
+}
+
+.factuurbutton a {
+	margin-top: 20px;
+	width: 13%;
+	margin-right: 1%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding: 20px 20px;
+	border: 1px solid rgba(207, 205, 205, 0.67);
+}
+
+.factuurvoorbeeld {
+	clear: left;
+	margin-top: 10px;
+	margin-left: 40%;
+}
+
+.magazijnbutton li {
+	list-style-type: none;
+}
+
+.magazijnbutton li ul li {
+	padding: 10px;
+	list-style-type: none;
+	border: 1px solid rgba(207, 205, 205, 0.67);
+}
+
