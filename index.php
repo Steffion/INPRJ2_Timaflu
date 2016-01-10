@@ -27,9 +27,9 @@
 					<li><a href="?page=magazijn">Magazijn</a></li>
 					<li><a href="#">Rapporten <b class="caret"></b></a>
 						<ul>
-							<li><a href="#">Jaaromzet</a></li>
-							<li><a href="#">Meest winstgevend</a></li>
-							<li><a href="#">Meest verkocht</a></li>
+							<li><a href="?page=jaaromzet">Jaaromzet</a></li>
+							<li><a href="?page=meestwinstgevend">Meest winstgevend</a></li>
+							<li><a href="?page=meestverkocht">Meest verkocht</a></li>
 							<li><a href="?page=inkooptotalen">Inkooptotalen</a></li>
 							<li><a href="?page=openstaandeorders">Openstaande orders</a></li>
 						</ul>

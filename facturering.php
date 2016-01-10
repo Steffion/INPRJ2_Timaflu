@@ -1,37 +1,44 @@
-<h1>Facturering</h1>
-
 <div class="factuurbutton">
-	<a href="?page=verkooporders">Verkooporders</a>
-</div>
-
+	<ul><a href="?page=verkooporders">Verkooporders</a></ul>
+	</div>
 <div class="center">
-	<h1>Wanbetalers</h1>
-	<table>
-		<tr>
-			<th>Bedrijfsnaam</th>
-			<th>Weken achterstand</th>
-			<th>Nog te betalen bedrag</th>
-			<th>Telefoonnummer</th>
-		</tr>
-		<tr>
-			<td>vb1</td>
-			<td>3</td>
-			<td>&euro;3000.00</td>
-			<td>06-58957895</td>
-		</tr>
-		<tr>
-			<td>vb2</td>
-			<td>2</td>
-			<td>&euro;250.00</td>
-			<td>06-35215254</td>
-		</tr>
-		<tr>
-			<td>vb3</td>
-			<td>5</td>
-			<td>&euro;2500.00</td>
-			<td>06-34255284</td>
-		
-		</tr>
+<p>
+select factuur.betaald, klant.telefoonnummer,
+from factuur
+</p>
+<p>
+join
+bestelling on factuur.ordernummer=bestelling.ordernummer
+join 
+klant on bestelling.bedrijfsnaam=klant.bedrijfsnaam
+
+	<h1>hier komt een lijst met wanbetalers</h1>
+<table>
+	<tr>
+		<td>bedrijf</td>
+		<td>weken achterstand</td>
+		<td>nog te betalen</td>
+		<td>telefoonnummer</td>
+	</tr>
+	<tr>
+		<td>vb1</td>
+		<td>3</td>
+		<td>3000</td>
+		<td>0658957895</td>
+	</tr>
+	<tr>
+		<td>vb2</td>
+		<td>2</td>
+		<td>250</td>
+		<td>0635215254</td>
+	</tr>
+	<tr>
+		<td>vb3</td>
+		<td>5</td>
+		<td>2500</td>
+		<td>0634255284</td>
 	
-	</table>
+	</tr>
+
+</table>
 </div>

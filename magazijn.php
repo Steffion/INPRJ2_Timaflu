@@ -13,8 +13,13 @@ robots:
 </ul>
 </li>
 </div>
+
 <div class="center">
-	<table>
+<p>
+select bakcode, ordernummer
+from bak
+</p>
+	<table style="width:1000px;">
 		<tr>
 			<td></td>
 			<td></td>
