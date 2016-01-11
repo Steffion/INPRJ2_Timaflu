@@ -1,2 +1,3 @@
-<h1>Welkom op de Timaflu Webportal!</h1>
-<p>//TODO extra info</p>
+<h1>Welkom op het Timaflu Webportal!</h1>
+<p>Hier kunt u alle functies van het computer systeem besturen.</p>
+<p>Kies een scherm, onderverdeeld in de bedrijfsprocessen, bovenaan het scherm.</p>
